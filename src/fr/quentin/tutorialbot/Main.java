@@ -14,7 +14,7 @@ public class Main {
 
         CommandManager.addCommand("test", new TestCommand());
 
-        JDA jda = JDABuilder.createDefault("ODMxNTQ1MTU4NDY5OTQzMjk3.YHWyxw.xQuIunyWF-YWwRlWtT2dHPKW-UU")
+        JDA jda = JDABuilder.createDefault("token")
                 .addEventListeners(new Message())
                 .build();
 
